@@ -1,0 +1,17 @@
+<html>
+
+<script type="text/javascript">
+var shadow = document.querySelector("div#shadow").createShadowRoot();
+
+shadow.innerHTML = '<p>Hello Shadow DOM</p>';
+shadow.innerHTML += '<style>p{color: yellow;}</style>';
+
+</script>
+<body>
+<h1>Local DOM</h1>
+
+<div id="shadow">
+
+</div>
+</body>
+</html>
